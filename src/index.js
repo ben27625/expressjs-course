@@ -31,7 +31,7 @@ app.engine(
   })
 );
 app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, '/resources/views'));
+app.set('views', path.join(__dirname, 'resources','views'));
 
 app.listen(port, (req, res) => {
   console.log('App listening on port' + port);
